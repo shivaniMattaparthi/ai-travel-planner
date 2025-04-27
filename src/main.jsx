@@ -10,6 +10,9 @@ import { Toaster } from "sonner";
 import {GoogleOAuthProvider } from "@react-oauth/google";
 import Viewtrip from "./view-trip/[tripId]";
 import MyTrips from "./my-trips";
+import BreakingNewsTicker from "./components/custom/Framer";
+import RevolvingTextTicker from "./components/custom/Framer";
+import PremiumRevolvingTicker from "./components/custom/Framer";
 
 
 const router = createBrowserRouter([
@@ -33,6 +36,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <GoogleOAuthProvider clientId= {import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
       <Header />
+      <PremiumRevolvingTicker/>
       <Toaster />
       <RouterProvider router={router} />
     </GoogleOAuthProvider>

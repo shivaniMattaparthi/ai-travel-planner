@@ -42,7 +42,7 @@ function PlaceCardItem({ place }) {
           <p className="text-sm text-gray-400">{place.placeDetails}</p>
           <p className="mt-2 text-sm">🕒 {place.timeToSpend}</p>
           <a
-            href="https://foodie-hub-9f762.web.app/"
+            href="https://ssridess-git-main-shivanimattaparthis-projects.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
